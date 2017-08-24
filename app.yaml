@@ -1,6 +1,8 @@
-runtime: java7
+runtime: java
 
 handlers:
 - url: /.*
   script: this field is required but ignored :-D
 
+runtime_config:  # Optional
+  jdk: openjdk7
