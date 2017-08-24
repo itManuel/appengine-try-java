@@ -1,6 +1,6 @@
-runtime: java8
+runtime: java
 api_version: 1
 
 handlers:
-- url: /
-
+- url: /.*
+  script: this field is required but ignored :-D
